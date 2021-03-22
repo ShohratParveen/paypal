@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>paypal clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+   
+   .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  float: right;
+}
+
+.futtericon{
+ padding-left: 70%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+      body{
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+        #container{
+            height:565px;
+            width: 100%;
+            background-size: cover;
+            margin: 0;
+            background-image: url(https://thebespectacledbibliophilehome.files.wordpress.com/2020/01/free-book-library.jpg);    
+        
+        }
+        #wrapper{
+            margin: 0;
+            padding: 0;
+            }
+    #header{
+            background:transparent;
+            color: white;
+            font-size: 25px;
+
+            }
+
+            ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+li {
+  display: inline;
+}   
+
+.wrapper1 {
+  display: grid;
+  
+}
+
+nav{ 
+    border-bottom: 1.5px solid white;
+    height: 70px;
+    width: 98%;
+    border-top: 1.5px solid white;
+    background: transparent;
+   margin-top: auto;
+    
+}
+nav a{
+    
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+  
+
+} 
+
+.button {
+  float: right;
+  background-color:#008CBA; 
+  color: white; 
+  border-radius:13px ;
+  border:2px solid#008CBA;
+  padding: 15px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-right: 40px;
+  font-size: 18px;
+ 
+}
+
+.button:hover {
+  background-color:rgb(120, 193, 241);
+  color: #02698b;
+}
+.button1 { 
+    background-color:#008CBA; 
+  color: white; 
+  border-radius:14px ;
+  border:2px solid#008CBA;
+  padding: 15px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-right: 40px;
+  font-size: 20px;
+  text-align: center;
+ 
+}
+
+.button1:hover {
+  background-color:rgb(196, 227, 248);
+  color:#016b8f;
+}
+
+
+    
+#content{
+    color: rgb(252, 248, 248);
+    float: left;
+    margin-left: 10%;
+    font-size: 20px;
+    word-wrap: break-word;
+    width: 500px;
+    height: 370px;
+}
+#query{
+    margin: 0;
+    height: 60px;
+    font-size: 25px;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(230, 230, 255);
+}
+
+#container1{
+    height: 500px;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+    
+.box {
+    margin: 20px;
+    font-size: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows:  200px ;
+  grid-column-gap: 20px;
+  
+}
+
+#container2{
+    margin: 0;
+    height: 450px;
+    width: 100%;
+    background-color: rgb(222, 222, 248);
+}
+
+#container3{
+    margin: 0;
+    height: 650px;
+    background-color: rgb(190, 147, 66);
+    padding: 10px;
+    color: white;
+    background-color: blue;
+}
+
+#container4{
+    margin-top: 0;
+    height: 280px;
+    background-color: rgb(252, 227, 252);
+    color: black;
+    text-align: center;
+    padding-top:3%;
+    background-color: rgb(237, 237, 253);
+}
+
+
+.row-step{
+ font-size: 25px;
+ clear: both;
+}
+.main {
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section {
+  width: 50%;
+  height: 100%;
+  font-size: 25px;
+  margin-right: 30px ;
+  margin-left: 30px;
+
+}
+
+video {
+  width: 100%;
+  height: 50%;
+  margin-top: 12%;
+  border: 10px solid white;
+  clear: both;
+}
+
+.container5 {
+  text-align: left;
+  padding: 30px;
+  background-color:white;
+  height: 200px;
+  color: black; 
+}
+.container6 {
+  margin: 0px;
+  text-align: left;
+  padding: 0px;
+  background-color: rgb(253, 253, 253);
+  color: white;
+  height: 300px;
+  color: black;
+  
+}
+.statement__paragraph .main-span a {
+    display: inline-block;
+    padding: 5px;
+    vertical-align: middle;
+}
+a {
+    color: #0070ba;
+}
+.statement__paragraph {
+    text-align: right;
+    font-size: .8rem;
+    font-size: .85714286rem;
+    font-size: 12px;
+    font-size: .75rem;
+}
+.statement__paragraph {
+    padding-top: 20px;
+    font-size: 20px;
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+
+}
+.col-md-12 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 22px;
+    padding-right: 12px;
+}
+.footer-main{
+  list-style-type: disc;
+  display: inline;
+
+}
+.footer-main li{
+  margin: 10px;
+}
+.footer-main a{
+  text-decoration: none;
+  color: black;
+}
+.footer-main :hover{
+  color: rgb(8, 84, 248);
+}
+.footer-main .country-selector {
+    margin: 5px 18px 5px 0;
+}
+.country-selector{
+  float:right;
+}
+div.row::after{
+  margin: auto;
+}
+.country-selector .IN, .country-selector .india {
+    background-position: 5px -3674px;
+}
+.country-selector .country {
+    display: inline-block;
+    overflow: hidden;
+    width: 32px;
+    height: 26px;
+    padding: 0;
+    margin: 0;
+    vertical-align: middle;
+    text-indent: 999em;
+    text-align: left;
+    background-color: transparent;
+    background-repeat: no-repeat;
+
+}
+.copyright-section {
+    float: right;
+}
+.footer-tertiary li{ margin: 10px;}
+
+.footer-tertiary li.footer-copyright {
+    color: #687173;
+    font-weight: 700;
+}
+
+.footer-tertiary a {
+  text-decoration: none;
+    font-size: 14px;
+    font-size: .875rem;
+    color: #687173;
+    padding-top: 10px;
+}
+.footer-tertiary :hover{
+  color: blue;
+}
+
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="container">
+          <div id="header">
+             <h1>paypal clone</h1>
+             <button class="button button"><strong>Login</strong></button>
+             <button class="button button"><stong>Sign up</stong></button>
+          
+           
+             <nav>
+                 <a href="">INDIVIDUAL</a>
+                 <a href="">BUSINESS</a>
+                 <a href="">PARTNERS</a>
+                <a href="">USEFULL INFO</a>
+             </nav>
+           </div> 
+           <div id="content">
+               <h2>PAY WITH PAYPAL.<br>
+                SAFE HAI.</h2>
+                <p style="margin: 0px;">Wherever you shop online worldwide, a PayPal account lets you check out safer, faster and easier. That’s why we are accepted in over 200 markets and trusted by over 346 million accounts.​</p>
+                <center><button class="button1"><strong>Sign Up for free</strong><button></center>
+                    <p style="margin: 0;">Looking for PayPal for your business?<br>
+                       <strong> Go to Business Solutions.</strong></p>
+            </div>
+        </div>
+
+        <div id="query">
+            <p> Have a query? Click here to reach Help Centre</p>
+        </div>
+<div id="container1">
+    <p>
+        The safer, easier way to pay around the world.​
+    </p>
+
+    <div class="box">
+      
+      
+        <div class="box1">
+          <img src="https://www.paypalobjects.com/digitalassets/c/website/marketing/apac/IN/consumer-activation/protection.svg" alt="180-Day Buyer Protection" class="icon-panel__image">
+          <p style="font-size: 25px;" >180-Day Buyer Protection</p>
+            Item not as described? You have our first-of-its-kind 180-day refund window to get a full refund on your purchase.
+            
+            <br><a href="https://www.paypal.com/in/webapps/mpp/paypal-buyer-protection" data-pa-click="panel hatchText | Learn more1" pa-marked="1">Learn more</a>
+          </div>
+
+        <div class="box2">
+          <img src="https://www.paypalobjects.com/digitalassets/c/website/marketing/apac/IN/home/one-account-india-abroad.svg" alt="One Account for shopping worldwide​" class="icon-panel__image">
+          <p style="font-size: 25px;" >One Account for shopping worldwide​</p>
+            Shop globally with one PayPal account.​
+            <br>
+            <br><a href="https://www.paypal.com/in/webapps/mpp/paypal-buyer-protection" data-pa-click="panel hatchText | Learn more1" pa-marked="1">Learn more</a>
+          </div>
+
+        <div class="box3">
+          <img src="https://www.paypalobjects.com/digitalassets/c/website/marketing/apac/india/optimised/in-safe-hai/icons/mail-paypalme-pink.svg" alt="Skip the Logins" class="icon-panel__image">
+          <p style="font-size: 25px;" >Skip the Logins</p>
+            Check out faster and easier with One Touch™ and you'll never need to enter your login details again.
+            
+           <br><br> <a href="https://www.paypal.com/in/webapps/mpp/paypal-buyer-protection" data-pa-click="panel hatchText | Learn more1" pa-marked="1">Learn more</a>
+          </div>
+
+        <div class="box4">
+          <img src="https://www.paypalobjects.com/digitalassets/c/website/marketing/apac/india/optimised/in-safe-hai/icons/SecureTech-pink.svg" alt="Worry-free Shopping" class="icon-panel__image">
+          <p style="font-size: 25px;" >Worry-free Shopping</p>
+            Shop with ease and confidence. Your financial details are never shared, not even with the seller.
+            
+            <br><br><a href="https://www.paypal.com/in/webapps/mpp/paypal-buyer-protection" data-pa-click="panel hatchText | Learn more1" pa-marked="1">Learn more</a>
+          </div>
+      </div>
+
+</div>
+
+
+<div id="container2">
+    <main class='main'>
+
+        <section class='left section'>
+          <h2>See how PayPal works.</h2>
+      
+          <p>Whether you're shopping or selling with PayPal, we make it faster, safer and easier for everyone to shop or sell globally with confidence.
+
+        </p>
+      
+        </section>
+        <section class='right section'>
+      
+          <video src='https://youtu.be/7yg3K1oq-Zs' controls></video>
+      
+        </section>
+      
+      </main>
+</div>
+
+<div id="container3">
+
+  <main class='main'>
+
+    <section class='left section'>
+      <h1>How PayPal works</h1>
+  
+      <p style="font-size: 23px;">It’s an easier, faster and safer way to pay online and on your mobile.</p>
+      <ol style="font-size: 19px;">
+        <li>How PayPal works<br>
+          It’s an easier, faster and safer way to pay online and on your mobile.</li><br>
+          
+        <li>Link a credit / debit card<br>
+            You only have to do it once</li><br>
+        <li>Pay with PayPal at your favourite brands<br>
+          Wherever you see the PayPal button</li><br>
+          <li>Receive email receipt of your purchase<br>
+            The seller will fulfil your order</li><br>
+     </ol><br>
+   
+     <p style="font-size: 17px;">This is only for representational purpose. The actual sign up requires you to provide other fields as well</p>
+    </section>
+    <section class='right section'>
+      
+      <img style="width: 80%; height: 400px; padding: 20%;" src="https://www.paypalobjects.com/digitalassets/c/website/marketing/apac/india/optimised/home/how-pp-works-1.gif">
+  
+    </section>
+  
+  </main>
+
+  <div id="container4">
+  <h1>Start shopping with PayPal today.</h1>
+  <button class="button1">Sign Up for free</button>
+  <p>For more about PayPal for your business or freelance needs,<br>
+    go to PayPal Business.</p>
+
+  </div>
+
+
+  <div class="wrapper1">
+    <div class="container5">
+      <p>All trademarks, service marks, trade names and logos appearing on the site are the property of the respective owners.</p>
+    <h5 class="statement__paragraph">Stay Connected</h5>
+    <span class="statement__paragraph">
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-twitter"></a>
+    <a href="#" class="fa fa-youtube"></a>
+    <a href="#" class="fa fa-instagram"></a>
+  </span>
+    </div>
+    </div>
+    
+    <div class="footer">
+    <div class="container6">
+      <div class="row">
+        <div class="col-md-12">
+          <ul class="footer-main">
+            <li class="country-selector">
+              <a href="https://www.paypal.com/in/webapps/mpp/country-worldwide" aria-label="See all countries/regions" title="" class="country lazy-load-flag IN" data-pa-click="FooterFlag-Link-See all countries/regions" style="background-image: url(&quot;https://www.paypalobjects.com/webstatic/mktg/icons/sprite_countries_flag4.png&quot;);"></a>
+            </li>
+          </ul>
+            
+      
+    
+      <ul class="footer-main">    
+    <li><a href="https://www.paypal.com/in/smarthelp/home" data-pa-click="Footer-Link-Help" pa-marked="1">Help</a></li>
+    <li><a href="https://www.paypal.com/in/smarthelp/contact-us" data-pa-click="Footer-Link-Contact" pa-marked="1">Contact</a></li>
+    <li><a href="https://www.paypal.com/in/webapps/mpp/paypal-seller-fees" data-pa-click="Footer-Link-Fees" pa-marked="1">Fees</a></li>
+    <li><a href="https://www.paypal.com/in/webapps/mpp/online-shopping" data-pa-click="Footer-Link-Shop" pa-marked="1">Shop</a></li>
+    <li><a href="#" fpti="footer-link-Feedback" target="_self" alt="Feedback" pa-marked="1">Feedback</a></li>
+   </ul>
+  </div>
+  </div>
+
+  <br>
+  <div class="footer-main">
+  <li><a href="https://www.paypal.com/in/webapps/mpp/paypal-safety-and-security" data-pa-click="Footer-Link-Security" pa-marked="1">Security</a></li>
+ </div>
+
+
+  <div class="row">
+    <div class="col-md-12">
+      <hr class="hidden-lg-down primary">
+    </div>
+    </div>
+
+    <div class="row">
+    <div class="col-md-12">
+      <ul class="footer-main">
+        <li><a href="https://www.paypal.com/in/webapps/mpp/about" data-pa-click="Footer-Link-About" pa-marked="1">About</a></li>
+        <li><a href="https://newsroom.in.paypal-corp.com/" data-pa-click="Footer-Link-Newsroom" pa-marked="1">Newsroom</a></li>
+        <li><a href="https://www.paypal.com/in/webapps/mpp/jobs" data-pa-click="Footer-Link-Jobs" pa-marked="1">Jobs</a></li>
+        <li><a href="https://www.paypal.com/in/webapps/mpp/full-sitemap" data-pa-click="Footer-Link-Sitemap" pa-marked="1">Sitemap</a></li>
+        <li><a href="https://developer.paypal.com/" data-pa-click="Footer-Link-Developers" pa-marked="1">Developers</a></li>
+        <li><a href="https://www.paypal.com/in/webapps/mpp/partner-programme" data-pa-click="Footer-Link-Partners" pa-marked="1">Partners</a></li>
+        <li><a href="https://newsroom.in.paypal-corp.com" target="_blank" data-pa-click="Footer-Link-Newsroom" pa-marked="1">Newsroom</a></li>
+      </ul>
+      
+      <ul class="footer-tertiary copyright-section">
+        <li class="footer-copyright">© 1999–2021 </li>
+        <li><a href="https://www.paypal.com/in/webapps/mpp/accessibility" data-pa-click="Footer-Link-Accessibility" pa-marked="1">Accessibility</a></li>
+        <li><a href="https://www.paypal.com/in/webapps/mpp/ua/privacy-full" data-pa-click="Footer-Link-Privacy" pa-marked="1">Privacy</a></li>
+        <li><a href="https://www.paypal.com/in/webapps/mpp/ua/legalhub-full" data-pa-click="Footer-Link-Legal" pa-marked="1">Legal</a></li>
+      </ul>
+    </div>
+  </div>
+
+ 
+
+  <div class="row">
+    <div class="col-md-12">
+      <p class="footer-notes">PayPal Services in India are provided by PayPal Payments Private Limited (CIN U74990MH2009PTC194653). Users are advised to read the <a href="https://www.paypal.com/in/webapps/mpp/ua/useragreement-full" data-pa-click="footerNotes|terms and conditions" pa-marked="1">terms and conditions</a>" carefully."
+        <br><br>When you visit or interact with our sites, services, applications, tools or messaging, we or our authorised service providers may use cookies, web beacons, and other similar technologies for storing information to help provide you with a better, faster and safer experience and for advertising purposes. Learn more 
+        <a href="https://www.paypal.com/in/webapps/mpp/ua/privacy-full#7" data-pa-click="footerNotes|here" pa-marked="1">here</a>.
+      </p>
+  </div>
+</div> 
+
+
+  
+</div>
+</footer>
+</body>
+</html>
